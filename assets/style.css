@@ -1,0 +1,276 @@
+/*ALL PAGES*/
+.center {
+    text-align: center;
+}
+
+.bodycolor {
+    background-image: url('images/goldglitter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+
+/*NAVIGATION*/
+/*Modify background color*/
+.navbar-custom {
+    background-color: white;
+}
+
+/* Modify text color */
+.navbar-custom .navbar-text {
+    color: rgb(153, 101, 21);
+    font-family: 'Marcellus', serif;
+}
+
+/* Setting the toggler border color */
+.custom-toggler {
+    border-color: rgb(153, 101, 21);
+}
+
+/* Setting the toggler stroke color to dark gold */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(153, 101, 21, .8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Setting the toggler dropdown items color */
+.dropdown-item {
+    color: rgb(153, 101, 21);
+}
+
+
+/*LANDING PAGE aka HERO*/
+.hero {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.hero .jumbotron {
+    margin: 0px auto;
+    background-color: rgba(125, 31, 54, .75);
+}
+
+.hero .jumbotron h1 {
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 90px;
+    margin: 0px auto;
+}
+
+.hero .jumbotron h2 {
+    max-width: 75%;
+    margin: 0px auto;
+    color: white;
+    font-family: 'Marcellus SC', serif;
+}
+
+.hero .jumbotron hr {
+    border-color: white;
+}
+
+.hero .jumbotron .lead {
+    max-width: 75%;
+    margin: 0px auto;
+    color: white;
+}
+
+.hero p,
+.hero .btn,
+.hero .card-body,
+.hero .modal-title {
+    font-family: 'Marcellus', serif;
+}
+
+/*Selections link text in hero paragraph which opens selections modal*/
+.modaltextstyle {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.jumbotron p a:hover {
+    color: rgb(125, 31, 54);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+/*Selections modal*/
+#Modal .modal-title {
+    font-family: 'Marcellus SC', serif;
+    color: rgb(125, 31, 54);
+    text-align: center;
+    margin: 0px auto;
+}
+
+#Modal .close {
+    color: rgb(125, 31, 54);
+}
+
+#Modal .btn {
+    font-family: 'Marcellus SC', serif;
+    color: rgb(125, 31, 54);
+    background-color: white;
+    border: 1px solid rgb(125, 31, 54);
+}
+
+#Modal .btn-link:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(125, 31, 54, .75);
+    border: 1px solid rgba(125, 31, 54, .75);
+}
+
+#accordion .card .card-header {
+    padding: 0px;
+    border: 0px;
+}
+
+#collapseOne {
+    background-image: url('images/casesofbeer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#collapseOne .card-body {
+    font-family: 'Marcellus', serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(125, 31, 54, .75);
+}
+
+#collapseTwo {
+    background-image: url('images/wineaisles.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#collapseTwo .card-body {
+    font-family: 'Marcellus', serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(125, 31, 54, .75);
+}
+
+#collapseThree {
+    background-image: url('images/champagne.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#collapseThree .card-body {
+    font-family: 'Marcellus', serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(125, 31, 54, .75);
+}
+
+#collapseFour {
+    background-image: url('images/spirits.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#collapseFour .card-body {
+    font-family: 'Marcellus', serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(125, 31, 54, .75);
+}
+
+#collapseFive {
+    background-image: url('images/cordials.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#collapseFive .card-body {
+    font-family: 'Marcellus', serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(125, 31, 54, .75);
+}
+
+#Modal .modal-footer .btn-secondary:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(125, 31, 54, .75);
+    border: 1px solid rgba(125, 31, 54, .75);
+}
+
+/*Button to specials and discounts page*/
+.hero .jumbotron .btn {
+    margin: 10px;
+}
+
+.hero .jumbotron .btn-primary {
+    color: rgb(125, 31, 54);
+    background-color: white;
+    border: 2px solid rgb(125, 31, 54);
+}
+
+.hero .jumbotron .btn-primary:hover {
+    color: rgb(125, 31, 54);
+    background-color: rgba(255, 255, 255, .75);
+    border: 2px solid rgb(125, 31, 54);
+}
+
+
+/*SPECIALS AND DISCOUNTS PAGE*/
+.specialsjumbotron .jumbotron {
+    margin: 0px auto;
+    background-color: rgba(255, 255, 255, .70);
+}
+
+.specialsstyle h1 {
+    font-family: 'Marcellus SC', serif;
+    color: rgb(153, 101, 21);
+    margin: 0px auto;
+}
+
+.specialsstyle .card-title,
+.specialsstyle .card-text,
+.specialsstyle h4,
+.specialsstyle h5,
+.specialsstyle p {
+    font-family: 'Marcellus', serif;
+    color: rgb(153, 101, 21);
+}
+
+.specialsstyle .card-group .card {
+    margin: 10px;
+}
+
+
+/*CONTACT PAGE*/
+.contactjumbotron {
+    margin: 0px auto;
+    background-color: rgba(255, 255, 255, .70);
+}
+
+.contactjumbotron h1 {
+    font-family: 'Marcellus SC', serif;
+    max-width: 75%;
+    margin: 0px auto;
+}
+
+.contactstyle h1,
+.contactstyle h2,
+.contactstyle h3,
+.contactstyle h4,
+.contactstyle h5,
+.contactstyle p {
+    color: rgb(153, 101, 21);
+    font-family: 'Marcellus', serif;
+}
+
+
+/*ONLINE WINE STORE PAGE*/
+
+
+/*FOOTER*/
+.footerstyle {
+    background-color: white;
+    padding: 8px 16px;
+}
+
+.footerstyle h4,
+.footerstyle h5,
+.footerstyle p {
+    font-family: 'Marcellus', serif;
+    color: rgb(153, 101, 21);
+}
